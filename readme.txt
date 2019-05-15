@@ -1,26 +1,18 @@
+Hello!
+This repo was created to accompany the follow presenation 
+https://docs.google.com/presentation/d/1P-Wds4qSCyCruAC4ecL7omiHZKVD0UpGtYxqWijZAJw/edit?usp=sharing
+
+This is a high level introduction into folium. This workshop is to help you get started with visualizing spatial data using folium, a python library for Leaflet. Run through data types examples and finish with analyzing the recent Chicago Mayoral Election. 
+
 #Create Conda Virtual Env 
 conda create --name folium -c conda-forge python=3.6 folium fiona jupyter basemap pandas shapely geopandas
 conda activate folium
 jupyter notebook
 conda deactivate
 
+Start with either:
 
+Dealing with points >>>>>> Displaying Points with Folium.ipynb
 
-Visualizing Mayoral Election Data 
+Working with polygons >>>> Thematic Mapping.ipynb
 
-#Project Structure
-
-
-5. Ask for feedback
-5a. Finalize 
-6. Shoot YouTube video 
-6a. Ask for Feeback 
-7. Present 
-
-
-1. Get data
-	a. Ward / Precinct GeoJson (Chicago City)
-	b. election data (CBOE) 
-2. Work through folium workshop 
-3. Work Through Bugs
-4. Simultaniously create Google Sildes Presentation 
